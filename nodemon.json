@@ -1,0 +1,7 @@
+{
+	"env": {
+		"mongo_user": "andreea_dev",
+		"mongo_password": "lulaby0025Andy",
+		"mongo_db": "eventsReactDev"
+	}
+}

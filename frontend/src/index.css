@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.form_control label,
+.form_control input,
+.form_control textarea{
+	width: 100%;
+	display: block;
+}
+
+.form_control label{
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.form_control{
+	margin-bottom: 1rem;
+}
+
+.form_actions button,
+.btn{
+	background: #0177CB;
+	font: inherit;
+	border: 1px solid #0177CB ;
+	border-radius: 5px;
+	padding: 0.25rem 1rem;
+	margin-right: 1rem;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.26);
+	font-weight: bold;
+	color:white;
+}
+
+.form_actions button:hover,
+.form_actions button:active,
+.btn:hover,
+.btn:active{
+	background: #018FF4;
+	border-color:#0177CB;
+	color: #dbc21a;
+}
+
